@@ -1,0 +1,17 @@
+{
+  "name": "neil-peeris-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Neil Peeris",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'Build complete - static site ready'",
+    "start": "live-server --port=3000 --open=/index.html"
+  },
+  "keywords": ["portfolio", "personal-website", "modern-ui"],
+  "author": "Neil Peeris",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
